@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header img{
+    height: 8%; 
+    width: 4%;
+} */
+header h1 {
+    font-family: 'Voltaire', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+
+
+    color: #7AD4FB;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #7AD4FB;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    background-color: #004E60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+}
+.container{
+ width: 65%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.links {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+ header img {
+    height: 15%;
+    width: 15%;
+    margin-right: 5%;
+} 
